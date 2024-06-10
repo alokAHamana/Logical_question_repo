@@ -8,7 +8,7 @@ public class FindDuplicateArray {
 
 		for (int i = 0; i <ar.length; i++) {
 
-			for (int j = i + 1; i < ar.length; j++) {
+			for (int j = i + 1; i < ar.length-1; j++) {
 				if (ar[i] == ar[j]) {
 					System.out.println(ar[i]);
 				}
